@@ -1,0 +1,425 @@
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: Helvetica,sans-serif,serif;;
+}
+
+                                                /* Header section */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  background: rgba(45, 70, 118, 1);
+  color: white;
+}
+.mobile-no,.mail-id {
+  display: flex;
+  margin: 0 20px;
+}
+.mobile-no i {
+  margin-top:18px;
+  margin-right: 10px;
+  color: rgba(255, 70, 61, 1);
+}
+.mail-id i {
+  margin-top:18px;
+  margin-right: 10px;
+  color: rgba(255, 70, 61, 1);
+}
+.social-icons {
+  margin: 20px 300px 20px 20px;
+}
+.social-icons i {
+  padding: 0px 10px;
+}
+
+                                                   /* home section */
+
+.home-section {
+  background: url(/Assets/img/Rectangle\ 20.png);
+  background-color: rgba(1, 32, 89, 1);
+  color: white;
+}  
+.home-inside {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.menu_bar {
+  display: flex;
+  justify-content: space-between;
+}
+.menus ul {
+  display: flex;
+  list-style: none;
+}
+.menus ul li {
+  margin-left: 20px;
+}
+.menus ul li a {
+  color: white;
+}
+.h {
+  color: rgb(255, 70, 61)!important;
+}
+
+.slogan-img {
+  display: flex;
+  font-family: Helvetica,sans-serif,serif;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.slogan {
+  width: 390px;
+}
+.slogan h3 {
+  font-size: 20px;
+  color: rgba(255, 70, 61, 1);
+}
+h3 span {
+  font-weight: lighter;
+  color: white;
+}
+.slogan h1 {
+  font-size: 34px;
+}
+
+
+.home-bottom {
+  display: flex;
+  background-color: rgba(255, 70, 61, 1);
+  margin-top: 80px;
+  justify-content: center;
+  border-radius: 20px 4px 4px 4px;
+}
+.home-bottom button {
+  color: rgba(1, 32, 89, 1);
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 10px 40px;
+  border: none;
+}
+
+                                                    /* secound-section */
+
+.secound-section {
+  background-color:  #E9ECF2;
+  color: rgba(1, 32, 89, 1);
+  
+}    
+.secound-section-inside {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}     
+.secound-section-content {
+  width: 466px;
+  margin-top: 60px;
+  position: relative;
+}
+.secound-section-content h1 {
+  font-size: 28px;
+  width: 500px;
+}
+.secound-section-content p {
+  font-size: 13px;
+}
+.secound-section-content button {
+  padding: 10px 30px;
+  background-color: rgba(1, 32, 89, 1);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-top: 20px;
+}
+.secound-section img{
+  margin-top: 180px;
+  position: relative;
+}
+.men-img {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+                                                /* what we do*/
+                      
+.inside_what_we_do {
+  width: 1000px;
+  margin: 0 auto;
+  color: rgba(1, 32, 89, 1);
+}
+.do_heading h1 {
+  font-size: 38px;
+}
+.do_content{
+  width: 350px;
+  margin-top: 40px;
+}
+.do_content h1{
+  font-size: 26px;
+  font-weight: 500;
+  width: 200px;
+}
+.what_we_do button {
+  padding: 10px 30px;
+  background-color: rgba(1, 32, 89, 1);
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+.implementation, .integration,.support,.development {
+  display: flex;
+  justify-content: space-between;
+}
+.integration .do_content,.development .do_content {
+  text-align: end;
+  width: 420px;
+}
+.integration h1,.development h1 {
+  margin-left: auto;
+}
+
+                                                  /* digital works section */
+
+.digital_works {
+  background: url(/Assets/img/withvr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.digital_works_inside {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 80px 0px;
+  color: white;
+  text-align: center;
+}
+.digital_transformation h3{
+  font-size: 18px;
+  padding-top: 50px;
+}
+.digital_transformation h1 {
+  font-size: 38px;
+  width: 430px;
+  margin: 0 auto;
+  margin-bottom: 50px!important;
+}
+
+.digital_works_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background-color: rgba(255, 70, 61, 1);
+  width: 350px;
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 4px;
+  margin: 10px 10px;
+  
+}
+.card_heading {
+  display: flex;
+  justify-content: center;
+}
+.card_heading i {
+  font-size: 38px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+                                              /* glory section */
+
+.glory {
+  background-color: rgba(233, 236, 242, 1);
+}
+.glory_inside {
+  background-image: url(/Assets/img/map.png);
+  background-position: center;
+  background-size: 700px;
+  background-repeat: no-repeat;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 80px 0px;
+  color: rgba(1, 32, 89, 1);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.glory_i_content i{
+  font-size: 58px;
+}
+.glory_i_content h1 {
+  font-size: 40px;
+  margin: 10px 10px;
+}
+
+                                          /* Testimonial */
+
+.testimonial {
+  position: relative;
+}
+.left_quatation img {
+  position: absolute;
+  top: 120px;
+  left: 2%;
+}    
+.right_quatation img {
+  position: absolute;
+  bottom: 60px;
+  right: 3%;
+}                                     
+.testimonial_inside {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 120px 0px;
+}
+.toggling_cards {
+  display: flex;
+  justify-content: space-around;
+}
+.testimonial_card {
+  width: 340px;
+  margin: 20px 10px;
+  box-shadow: -6px 6px 50px grey;
+  padding: 10px 20px;
+}
+.testimonial_card p {
+  font-size: small;
+}
+.testimonial_card h4 {
+  color: rgba(255, 70, 61, 1);
+}
+.left-arrow,.right-arrow {
+  padding-top: 12%;
+}
+
+                                            /* get in touch */
+
+.group-working {
+  background-image: url(/Assets/img/executives-working-together-project\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+.top_layer {
+  background-color: rgb(14 35 76 / 82%);
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  
+}
+.get-in-touch-section h1 {
+  font-size: 42px;
+  margin: 50px 30px;
+  color: white;
+}
+.get-in-touch-section button {
+  padding: 0px 0px;
+  height: 36px;
+}
+.inside_top_layer {
+  display: flex;
+  position: relative;
+  top: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.inside_top_layer button  {
+  padding: 10px 25px;
+  font-size: medium;
+  background-color: rgba(255, 70, 61, 1);
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+
+                                                /* additional-info-section*/
+
+.additional_info {
+  padding: 80px 0px;
+}                                           
+.additional_info_inside {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  color: rgba(1, 32, 89, 1);
+  justify-content: center;
+}
+.contact {
+  width: 220px;
+}
+.contact ul,.services_list ul,.products_list ul,.careers_list ul {
+  list-style: none;
+}
+.services_list li, .services_list li, .products_list li, .careers_list li {
+  font-size: small;
+  margin-bottom: 5px;
+}
+.contact ul li {
+  display: flex;
+}
+li p {
+  margin-top: 0px;
+  margin-left: 15px;
+  font-size: small;
+  text-align: left;
+}
+li i {
+  color: rgba(255, 70, 61, 1);
+}
+li img {
+  margin-bottom: 30px;
+}
+
+                                            /* footer-section */
+
+footer {
+  background-color: rgba(1, 32, 89, 1);
+  color: white;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.copyright .footer-icons {
+  margin-right: none!important;
+}
+.footer-icons i {
+ margin-right: 15px;
+}
+
+                                          /* media query */
+
+@media (min-width:1200px) and (max-width:1440px){
+  .social-icons {
+    margin: 20px 180px 20px 20px;
+  }
+  .right_quatation img,.left_quatation img {
+    width: 150px;
+  }
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px) {
+  .home-inside,.secound-section-inside {
+    width: 810px;
+  }
+}
